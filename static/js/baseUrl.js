@@ -3,13 +3,13 @@ let baseUrl = "";
 if (process.env.NODE_ENV === 'development') {
 	// 开发环境
 	// baseUrl = 'https://api.dxer319.com'
-    baseUrl ='http://yuetu.moonrabbit2024.com'
+    baseUrl ='https://yuetu.moonrabbit2024.com'
 	// #ifdef H5
 	// baseUrl = "/api"
 	// #endif
 } else if (process.env.NODE_ENV === 'production') {
 	// 生产环境
-	baseUrl = 'http://yuetu.moonrabbit2024.com'
+	baseUrl = 'https://yuetu.moonrabbit2024.com'
 	// #ifdef H5
 	// baseUrl = "/api"
 	// #endif
