@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'development') {
 	// #endif
 } else if (process.env.NODE_ENV === 'production') {
 	// 生产环境
-	baseUrl = 'http://yuetu.moonrabbit2024.com'
+	baseUrl = 'https://yuetu.moonrabbit2024.com'
 	// #ifdef H5
 	// baseUrl = "/api"
 	// #endif
