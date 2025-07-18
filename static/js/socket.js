@@ -1,4 +1,4 @@
-const wsUrl = "wss://yuetu.moonrabbit2024.com:6655"
+const wsUrl = "wss://yuetu.moonrabbit2024.com/ws"
 // const wsUrl = "ws://8.141.5.4:6655"
 import http from "./http.js"
 const socket = {
